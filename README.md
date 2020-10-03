@@ -3,4 +3,5 @@
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1") Test static website for hosting in github.
 
-### never stop believing in hope because miracles happen everyday.
+### Never stop believing in hope,
+### because miracles happen everyday.
