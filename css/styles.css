@@ -21,6 +21,8 @@ a:hover {
 h1, h2 {
   font-family: 'Caveat', cursive;
   font-weight: 400;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 h1 {
   font-size: 80px;
@@ -32,8 +34,19 @@ h2 {
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px;
   overflow: hidden;
+}
+
+.column-wide h1 ,h2{
+  padding-left: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.content-wrap img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 
 .column-narrow {
@@ -49,13 +62,17 @@ h2 {
 }
 
 
+.column-wide p{
+  color: #EDF2F4;
+}
+
 
 /* Header & Footer 
 ------------------------------------*/
 header, 
 footer {
-  background: #2B2D42;
-  color: #8D99AE;
+  background: rgb(0,58,136);
+  background: linear-gradient(169deg, rgba(0,58,136,1) 12%, rgba(0,0,0,1) 100%);
 }
 header h1,
 header h2 {
@@ -72,15 +89,29 @@ header {
   border-radius: 50%;
   /*float: left;*/
   /*margin-right: 30px;*/
+  
+ 
+  
 }
 
 /* Footer styles only */
 footer {
   text-align: center;
+  color: #EDF2F4;
 }
 .contact-info a {
   padding: 10px;
   display: inline-block;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.contact-info a:hover{
+  color: aquamarine;
+}
+
+.contact-wide h1:hover{
+  border-bottom: 2px solid grey;
 }
 
 
@@ -96,6 +127,8 @@ footer {
 ------------------------------------*/
 .education {
     background: #8D99AE;
+    opacity: 60%;
+    z-index: 1px;
 }
 .squareItem {
   margin-top: 30px;
