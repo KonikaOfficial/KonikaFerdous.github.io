@@ -1,4 +1,6 @@
-/* Global styles 
+@import "top-button.css";
+
+/* Global styles
 ------------------------------------*/
 /* border box fix */
 html {
@@ -50,9 +52,9 @@ h2 {
 
 
 
-/* Header & Footer 
+/* Header & Footer
 ------------------------------------*/
-header, 
+header,
 footer {
   background: #2B2D42;
   color: #8D99AE;
