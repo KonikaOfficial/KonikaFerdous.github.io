@@ -5,3 +5,8 @@
 
 ### Never stop believing in hope,
 ### because miracles happen everyday.
+
+## Technology used in Repository
+* Javascript
+* Jquery
+* bootstrap
