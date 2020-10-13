@@ -1,150 +1,279 @@
-@import "top-button.css";
-
-/* Global styles
-------------------------------------*/
-/* border box fix */
-html {
+/* css resets */
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  margin: 0;
 }
-a {
-    color: #EF233C;
+
+body img {
+  user-select: none;
 }
-a:hover {
-    text-decoration: none;
+
+body a{
+  color: #EF233C;
+  text-decoration: none;
 }
-h1, h2 {
+
+header,footer{
+  width: 100%;
+  height: 350px;
+  background-color: #2B2D42;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .profile-img{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  margin: 30px 40px 0 0;
+}
+
+header .description{
+  width: 500px;
+  padding: 20px;
+}
+
+header .description h1, header .description h2, footer div h2{
+  color: #EDF2F4;
   font-family: 'Caveat', cursive;
+}
+
+header .description h1{
+  font-size: 70px;
+}
+
+header .description h2{
+  font-size: 30px;
+  margin: 15px 0 20px;
+}
+
+header .description p{
+  color: #edf2f4b9;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.work-experience, .education, .stars{
+  width: 100%;
+  padding: 50px;
+}
+
+.work-experience,.stars{
+  background-color: #EDF2F4;
+}
+
+.work-experience h3,.education h3{
+  width: 790px;
+  font-size: 32px;
+  font-weight: 400;
+  margin: auto;
+}
+
+.work-experience .work{
+  margin: 30px auto;
+  width: 790px;
+  height: 200px;
+  /* border: 1px solid red; */
+}
+
+.work-experience .work{
+  display: flex;
+}
+
+.work-experience .work .title{
+  width: 290px;
+  height: 100%;
+  /* border-right: 1px solid violet; */
+  padding: 50px 24.3px 50px 0;
+}
+
+.work-experience .work .detail{
+  width: 500px;
+  height: 100%;
+  /* border-right: 1px solid violet; */
+  padding: 51px 24.3px;
+}
+
+.work-experience .work .title h4 {
+  font-size: 20px;
+}
+
+.work-experience .work .title p:nth-child(2), .work-experience .work .detail p:nth-child(2) {
+  margin: 10px 0;
+}
+
+.work-experience .work .title p:nth-child(3), .work-experience .work .detail p:nth-child(2){
+  color: rgb(115, 115, 115);
+}
+
+.work-experience .work .detail p:nth-child(1){
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.work-experience .work .detail p:nth-child(2) a{
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.education{
+  background-color: #383a55;
+  color: #EDF2F4;
+}
+
+.education .edu{
+  width: 790px;
+  margin: 40px auto;
+}
+
+.education .edu h4{
+  font-size: 20px;
   font-weight: 400;
 }
-h1 {
-  font-size: 80px;
-}
-h2 {
-  font-size: 40px;
-  margin-top: 0;
-}
-.content-wrap {
-  max-width: 950px;
-  margin: 0 auto;
-  padding: 50px;
-  overflow: hidden;
+
+.education .edu p:nth-child(2){
+  margin: 13px 0;
+  color: #edf2f4e3;
 }
 
-.column-narrow {
-  width: 35%;
-  float: left;
-  padding-right: 3%;
-  min-height: 175px;
-}
-.column-wide {
-  width: 62%;
-  float: left;
-  min-height: 175px;
+.education .edu p:nth-child(3){
+  color: #edf2f4b9;
 }
 
-
-
-/* Header & Footer
-------------------------------------*/
-header,
-footer {
-  background: #2B2D42;
-  color: #8D99AE;
-}
-header h1,
-header h2 {
-    color: #EDF2F4;
-    margin: 0;
+.education .edu:last-child{
+  margin-bottom: 0;
 }
 
-/* Header styles only */
-header {
-  /*text-align: center;*/
-}
-.profile-img {
-  /*width: 300px;*/
-  border-radius: 50%;
-  /*float: left;*/
-  /*margin-right: 30px;*/
+.stars .container{
+  width: 790px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
 }
 
-/* Footer styles only */
-footer {
+.stars .container div{
+  width: 100%;
+  height: 150px;
+  border: 2px solid #444;
+  border-top: 0;
+  position: relative;
   text-align: center;
 }
-.contact-info a {
-  padding: 10px;
-  display: inline-block;
-}
 
-
-
-/* Work Experience
-------------------------------------*/
-.work {
-    background: #EDF2F4;
-}
-
-
-/* Education
-------------------------------------*/
-.education {
-    background: #8D99AE;
-}
-.squareItem {
-  margin-top: 30px;
-  position: relative;
-}
-.squareInnerContainer { 
-position: relative;
-padding: 50px 15px 35px;  
-text-align: center;
-border: 2px solid #444;
-border-top: none;
-}
-.squareInnerContainer:before,
-.squareInnerContainer:after{
-  content: '';
+.stars .container div::before{
+  content: "";
   position: absolute;
-  top: 0px;
-  width: 30%;  
+  top: 0;
+  left: 0;
+  width: 30%;
   border-bottom: 2px solid #444;
 }
 
-.squareInnerContainer:before{
-  right: 0px;
-}
-.squareInnerContainer:after{
-  left: 0px;
-}
-.squareContent h2{
-  font-size: 56px;
-  margin-bottom: 10px;
-  font-weight: 400;
-  color: #e74c3c;
-}
-.squareContent h3{
-  font-size: 13px;
-  
-  font-weight: 600;
-  margin: 0;
+.stars .container div::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  border-bottom: 2px solid #444;
 }
 
-.squareIcon {
+.stars .container div i{
   position: absolute;
-  left: 50%;
-  top: -30px;
-  width: 40%;
-  height: 60px;
-  font-size: 40px;
-  margin-left: -20%;
-  color: #444;
+  font-size: 25px;
+  top: -15px;
+}
+
+.stars .container div h4{
+  font-size: 63px;
+  margin: 20px 0 10px;
+  font-weight: 400;
+  color: #e74c3c;
+  font-family: 'Caveat',cursive;
+}
+
+footer{
+  padding: 50px;
+}
+
+footer div{
+  width: 790px;
+  margin: auto;
+}
+
+footer div h2{
+  font-size: 50px;
+  color: #edf2f4e3;
+  font-weight: 400;
+  text-align: center;
+}
+
+footer .social-media{
+  width: 50%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .social-media a{
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border: 1px solid  #edf2f42f;
+  border-radius: 50%;
+  display: flex;
+  transition: background-color 0.5s linear;
+}
+
+footer .social-media a img{
+  width: 16px;
+  margin: auto;
+}
+
+footer .social-media a[title="Mail"]:hover{
+  background-color: #d44638;
+}
+
+footer .social-media a[title="Website"]:hover{
+  background-color: #6666d3;
+}
+
+footer .social-media a[title="Twitter"]:hover{
+  background-color: #00acee;
+}
+
+footer .social-media a[title="Facebook"]:hover{
+  background-color: #3b5998;
+}
+
+footer .social-media a[title="LinkedIn"]:hover{
+  background-color: #0e76a8;
+}
+
+footer div p{
+  color:#edf2f4e3;
+  text-align: center;
+  font-weight: 400;
+}
+
+footer div p span{
+  margin-left: 10px;
 }
