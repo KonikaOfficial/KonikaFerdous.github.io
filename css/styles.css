@@ -131,6 +131,21 @@ header .description p{
 .work-experience .work .detail p:nth-child(2) a{
   display: inline-block;
   margin-top: 10px;
+  position: relative;
+}
+
+.work-experience .work .detail p:nth-child(2) a::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  border-bottom: 1.3px solid red;
+  transition: right 0.3s;
+}
+
+.work-experience .work .detail p:nth-child(2) a:hover::before{
+  right: 0;
 }
 
 .education{
@@ -276,4 +291,59 @@ footer div p{
 
 footer div p span{
   margin-left: 10px;
+}
+
+/* media queries */
+
+@media (max-width: 991px){
+  header{
+    flex-direction: column;
+    height: auto;
+  }
+  header .description{
+    width: 100%;
+    text-align: center;
+  }
+  .work-experience h3, .education h3{
+    width: 100%;
+    text-align: center;
+  }
+  .work-experience .work{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  .work-experience .work .title{
+    padding-left: 24.3px;
+  }
+  .work-experience .work .detail{
+    width: 290px;
+  }
+  .education .edu{
+    text-align: center;
+    width: 100%;
+    margin: 60px 0;
+  }
+  .stars .container{
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  footer div{
+    width: 100%;
+  }
+}
+
+@media (max-width: 745px){
+  footer div .social-media{
+    width: 70%;
+  }
+}
+
+@media (max-width: 563px){
+  footer div .social-media{
+    width: 100%;
+  }
 }
