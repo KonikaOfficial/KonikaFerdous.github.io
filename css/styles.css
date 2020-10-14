@@ -78,7 +78,7 @@ header .description h2{
 }
 
 header .description p{
-  color: #edf2f4b9;
+  color: rgba(237, 242, 244, 0.725);
   font-size: 15px;
   line-height: 1.7;
 }
@@ -183,7 +183,7 @@ header .description p{
 }
 
 .education .edu p:nth-child(3){
-  color: #edf2f4b9;
+  color: rgba(237, 242, 244, 0.725);
 }
 
 .education .edu:last-child{
