@@ -438,6 +438,14 @@ header .description, .work-experience .work .detail, .education .edu:nth-child(3
   animation-fill-mode: forwards;
 }
 
+.work-experience h3, .education h3{
+  position: relative;
+  top: -400px;
+  animation-name: come-from-top;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+
 .work-experience .work .title, .work-experience .work .detail{
   animation-delay: 0.8s;
 }
@@ -454,6 +462,14 @@ footer div{
   animation-delay: 2s;
 }
 
+.work-experience h3{
+  animation-delay: 0.4s;
+}
+
+.education h3{
+  animation-delay: 0.9s;
+}
+
 @keyframes come-from-left{
   100%{
     left: 0;
@@ -463,5 +479,11 @@ footer div{
 @keyframes come-from-right{
   100%{
     right: 0;
+  }
+}
+
+@keyframes come-from-top{
+  100%{
+    top: 0;
   }
 }
