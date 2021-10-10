@@ -40,3 +40,12 @@
 <br>
 <br>
 <br>
+
+![](https://visitor-badge.glitch.me/badge?page_id=KonikaOfficial.KonikaOfficial)
+
+<!--
+**KonikaOfficial/KonikaOfficial** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+KonikaOfficial
+-->
+
