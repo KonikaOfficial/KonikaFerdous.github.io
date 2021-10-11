@@ -66,3 +66,23 @@ const thai = {
  challenge: "I am doing the #100DaysOfCode challenge focused on react and typescript"
 }
 ```
+
+
+
+<p align="left">
+  <a href="https://github.com/peterthehan"><img alt="GitHub" height="32" width="32" src="assets/github.svg"></a>
+  <a href="https://www.npmjs.com/~peterthehan"><img alt="npm" height="32" width="32" src="assets/npm.svg"></a>
+  <a href="https://linkedin.com/in/peter-han"><img alt="LinkedIn" height="32" width="32" src="assets/linkedin.svg"></a>
+</p>
+
+<p align="left">
+  <a href="https://discord.gg/WjEFnzC"><img alt="Discord - Miku#0039" title="Discord - Miku#0039" height="32" width="32" src="assets/discord.svg"></a>
+  <a href="https://facebook.com/peterthehan"><img alt="Facebook" height="32" width="32" src="assets/facebook.svg"></a>
+  <a href="https://imgur.com/user/PeterTheHan"><img alt="Imgur" height="32" width="32" src="assets/imgur.svg"></a>
+  <a href="https://myanimelist.net/profile/PeterTheHan"><img alt="MyAnimeList" height="32" width="32" src="assets/myanimelist.svg"></a>
+  <a href="https://reddit.com/user/PeterTheHan"><img alt="Reddit" height="32" width="32" src="assets/reddit.svg"></a>
+  <a href="https://open.spotify.com/user/2145isvugpczeo2fgz6khel3y"><img alt="Spotify" height="32" width="32" src="assets/spotify.svg"></a>
+  <a href="https://twitch.tv/peterthehan"><img alt="Twitch" height="32" width="32" src="assets/twitch.svg"></a>
+  <a href="https://twitter.com/PeterTheHan"><img alt="Twitter" height="32" width="32" src="assets/twitter.svg"></a>
+  <a href="https://youtube.com/channel/UC5QVwln-tycBa-CoB88a7wA"><img alt="YouTube" height="32" width="32" src="assets/youtube.svg"></a>
+</p>
