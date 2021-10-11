@@ -89,11 +89,11 @@ const thai = {
 
 
 <p align="left">
-  <a href="#"><img alt="Arknights - Phos#3548" title="Arknights - Phos#3548" height="32" width="32" src="assets/arknights.svg"></a>
-  <a href="#"><img alt="Destiny 2 - Phos" title="Destiny 2 - Phos" height="32" width="32" src="assets/destiny.svg"></a>
-  <a href="#"><img alt="Epic Games - PeterTheHan" title="Epic Games - PeterTheHan" height="32" width="32" src="assets/epicgames.svg"></a>
-  <a href="#"><img alt="PlayStation - PeterTheHan" title="PlayStation - PeterTheHan" height="32" width="32" src="assets/playstation.svg"></a>
-  <a href="https://stadia.com/profile/1536559313706186034"><img alt="Stadia - Phos" height="32" width="32" src="assets/stadia.svg"></a>
-  <a href="https://steamcommunity.com/id/peterthehan"><img alt="Steam" height="32" width="32" src="assets/steam.svg"></a>
-  <a href="#"><img alt="Warframe - Sumia" title="Warframe - Sumia" height="32" width="32" src="assets/warframe.svg"></a>
+  <a href="#"><img alt="Arknights - Phos#3548" title="Arknights - Phos#3548" height="32" width="32" src="images/arknights.svg"></a>
+  <a href="#"><img alt="Destiny 2 - Phos" title="Destiny 2 - Phos" height="32" width="32" src="images/destiny.svg"></a>
+  <a href="#"><img alt="Epic Games - PeterTheHan" title="Epic Games - PeterTheHan" height="32" width="32" src="images/epicgames.svg"></a>
+  <a href="#"><img alt="PlayStation - PeterTheHan" title="PlayStation - PeterTheHan" height="32" width="32" src="images/playstation.svg"></a>
+  <a href="https://stadia.com/profile/1536559313706186034"><img alt="Stadia - Phos" height="32" width="32" src="images/stadia.svg"></a>
+  <a href="https://steamcommunity.com/id/peterthehan"><img alt="Steam" height="32" width="32" src="images/steam.svg"></a>
+  <a href="#"><img alt="Warframe - Sumia" title="Warframe - Sumia" height="32" width="32" src="images/warframe.svg"></a>
 </p>
