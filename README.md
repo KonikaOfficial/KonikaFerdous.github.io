@@ -96,4 +96,5 @@ const thai = {
   <a href="https://stadia.com/profile/1536559313706186034"><img alt="Stadia - Phos" height="32" width="32" src="images/stadia.svg"></a>
   <a href="https://steamcommunity.com/id/peterthehan"><img alt="Steam" height="32" width="32" src="images/steam.svg"></a>
   <a href="#"><img alt="Warframe - Sumia" title="Warframe - Sumia" height="32" width="32" src="images/warframe.svg"></a>
+  <a href="#"><img alt="Warframe - Sumia" title="Warframe - Sumia" height="32" width="32" src="images/warframe.svg"></a>
 </p>
