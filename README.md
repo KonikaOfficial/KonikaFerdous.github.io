@@ -125,3 +125,15 @@ const thai = {
 <a href="https://www.rust-lang.org/" title="Rust"><img src="icons/rust.png" /></a>
 <a href="https://dart.dev/" title="Dart"><img src="icons/dartlang.png" /></a>
 <a href="https://flutter.dev/" title="Flutter"><img src="icons/flutter.png" /></a>
+
+<a href="https://dotnet.microsoft.com/" title="dotNet"><img src="icons/dotnet.png" /></a>
+<a href="http://csharp.net/" title="C#"><img src="icons/csharp.png" /></a>
+<a href="https://docs.microsoft.com/en-us/dotnet/visual-basic/" title="Visual Basic"><img src="icons/vbnet.png" /></a>
+<a href="https://angular.io/" title="Angular"><img src="icons/angular.png" /></a>
+<a href="https://reactjs.org/" title="React"><img src="icons/react.png" /></a>
+<a href="https://laravel.com/" title="Laravel"><img src="icons/laravel.png" /></a>
+<a href="https://wordpress.org/" title="WordPress"><img src="icons/wordpress.png" /></a>
+<a href="https://www.vagrantup.com/" title="Vagrant"><img src="icons/vagrant.png" /></a>
+
+
+
