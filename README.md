@@ -98,3 +98,13 @@ const thai = {
   <a href="#"><img alt="Warframe - Sumia" title="Warframe - Sumia" height="32" width="32" src="images/warframe.svg"></a>
   <a href="#"><img alt="Warframe - Sumia" title="Warframe - Sumia" height="32" width="32" src="images/warframe.svg"></a>
 </p>
+
+
+
+
+<a href="https://www.drupal.org/" title="Drupal"><img src="icons/drupal.png" /></a>
+<a href="https://www.php.net/" title="PHP"><img src="icons/php.png" /></a>
+<a href="https://getcomposer.org/" title="Composer"><img src="icons/composer.png" /></a>
+<a href="https://www.python.org/" title="Python"><img src="icons/python.png" /></a>
+<a href="https://git-scm.com/" title="Git"><img src="icons/git.png" /></a>
+
