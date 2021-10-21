@@ -2,3 +2,6 @@
 <div align="center">
 <img src="images/coderman.gif" alt="GitHub Logo" width="150" height="150" />
 </div>
+
+I work on WCIT 2021, an aspiring [Designer](), part-time event orginser and full-time adventure seeker. Thanks for visiting and I'd love to [connect]()!
+
