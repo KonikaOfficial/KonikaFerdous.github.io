@@ -16,3 +16,5 @@ I work on WCIT 2021, an aspiring [Designer](https://www.behance.net/konikaferdou
 <a href="https://www.docker.com/" title="Docker"><img src="icons/docker.png" /></a>
 <a href="https://github.com/" title="GitHub"><img src="icons/github.png" /></a>
 <a href="https://gitlab.com/" title="GitLab"><img src="icons/gitlab.png" /></a>
+
+![](https://visitor-badge.glitch.me/badge?page_id=KonikaOfficial.KonikaOfficial)
