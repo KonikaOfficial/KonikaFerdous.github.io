@@ -25,3 +25,12 @@ I work on WCIT 2021, an aspiring [Designer](https://www.behance.net/konikaferdou
 </p>
 
 ### all the best
+
+### Contribution Details
+
+  - Html
+  - css
+  - javascript
+  - Animation
+  
+  
