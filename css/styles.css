@@ -32,6 +32,7 @@ body {
 
 body img {
   user-select: none;
+  display: 0;
 }
 
 body a{
