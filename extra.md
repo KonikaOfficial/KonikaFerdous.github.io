@@ -18,3 +18,8 @@ I work on WCIT 2021, an aspiring [Designer](https://www.behance.net/konikaferdou
 <a href="https://gitlab.com/" title="GitLab"><img src="icons/gitlab.png" /></a>
 
 ![](https://visitor-badge.glitch.me/badge?page_id=KonikaOfficial.KonikaOfficial)
+<p align="left">
+  <a href="https://github.com/Shimanta-dey"><img alt="GitHub" height="32" width="32" src="images/github.svg"></a>
+  <a href="https://www.npmjs.com/~peterthehan"><img alt="npm" height="32" width="32" src="images/npm.svg"></a>
+  <a href="https://linkedin.com/in/peter-han"><img alt="LinkedIn" height="32" width="32" src="images/linkedin.svg"></a>
+</p>
