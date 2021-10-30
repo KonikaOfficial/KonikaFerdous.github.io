@@ -4,4 +4,7 @@ document.addEventListener("scroll",(e) => {
         tb.classList.add("show");
     else
         tb.classList.remove("show");
+    else 
+        const d = new Date();
+
 })
