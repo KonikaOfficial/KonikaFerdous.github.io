@@ -63,7 +63,7 @@ const thai = {
                         speaker: "Latinity",
                         mentor: "EducaTRANSforma"
                       },
- challenge: "I am doing the #100DaysOfCode challenge focused on react and typescript"
+ challenge: "I am doing the #100DaysOfCode challenge focused on ReactJS and Typescript"
 }
 ```
 
