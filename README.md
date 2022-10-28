@@ -24,7 +24,7 @@
 
 
 <div align="center">
-  <img width="100%" src="https://github.com/konikaofficial/konikaofficial/blob/AwesomeReadme/assets/cover.jpg" alt="cover" />
+  <img width="100%" src="https://github.com/konikaofficial/konikaofficial/blob/AwesomeReadme/assets/Untitled.jpg alt="cover" />
 </div>
 
 
@@ -40,7 +40,7 @@
   <tbody>
     <tr>
       <td align="center">
-        <img width="70%" src="https://github.com/konikaofficial/konikaofficial/blob/AwesomeReadme/assets/skills.png" alt="cover" />
+        <img width="70%" src="https://github.com/konikaofficial/konikaofficial/blob/AwesomeReadme/assets/konika.png" alt="cover" />
       </td>
     </tr>
   </tbody>
